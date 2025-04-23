@@ -104,18 +104,21 @@ p/s:
 ## Lấy mã xuất chiếu từ bảng inserted ( bảng tạm chứa dòng vừa được thêm)
 ## Max(MaXC) dùng trong trường hợp có nhiều dòng đc insert cùng lúc - nhưng chỉ lấy 1.
 ## Đếm tổng số vé đã được bán cho xuất chiếu @MaXC
+
 ![image](https://github.com/user-attachments/assets/c936c654-f856-42f1-8327-a682473c1b08)
 #
 ## Truy vấn thông tin liên quan đến xuất chiếu
 - TenPhim: Từ bảng Phim
 - Tenphong: từ bảng Phong
 - Dựa trên MaXC từ bảng XuatChieu
+  
 ![image](https://github.com/user-attachments/assets/2eeed7a6-d4e5-4702-8c62-31db1154e609)
 #
 ## Xác định tình trạng vé:
 - Nếu số vé bán >= tổng vé tối đa : -> hết vé
 - Nếu số vé đã bán còn cácch 5 vé vé nữa là đầy -> gần hết vé
 - ngược lại -> còn vé
+  
 - ![image](https://github.com/user-attachments/assets/89b6e645-c08b-451f-970d-d19c6e4ff66d)
 #
 ## Chèn bản gi mới vào bảng log, ghi nhận:
@@ -123,6 +126,7 @@ p/s:
 - Thời gian ghi log
 - Số vé đã bán/ tối đa
 - Trạng thái
+  
 ![image](https://github.com/user-attachments/assets/0866b963-4065-47fc-b542-62813784a9fe)
 
 ## Code hoàn chỉnh
